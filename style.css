@@ -43,7 +43,7 @@ a {
 .navbar {
     position: relative;
     width: 100%;
-    padding: 24px 0;
+    padding: 10px 0;
     background: #f8f7f4;
     border-bottom: 1px solid #deddd8;
 }
@@ -106,7 +106,7 @@ a {
     min-height: 720px;
     display: flex;
     align-items: center;
-    padding: 90px 0;
+    padding: 70px 0;
 }
 
 .hero-content {
@@ -199,8 +199,7 @@ a {
     overflow: hidden;
     background: #eeece7;
     border: 3px solid #8a6b45;
-    border-radius: 18px;
-    padding: 8px;
+    border-radius: 200px;
 }
 
 .photo-frame img {
@@ -268,6 +267,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
     margin-top: 60px;
+   
 }
 
 .book-card {
@@ -275,6 +275,7 @@ a {
     border: 1px solid #d8d6d0;
     overflow: hidden;
     transition: transform 0.35s ease, box-shadow 0.35s ease;
+    border-radius: 70px;
     
     /* Slight right tilt */
     transform: rotate(2deg);
@@ -320,6 +321,7 @@ a {
     height: 500px;
     background: #dedbd4;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .book-cover img {
@@ -329,6 +331,7 @@ a {
     object-fit: contain;
     background: #f5f3ef;
     transition: transform 0.5s ease;
+    border-radius: 70px;
 }
 
 .book-card:hover .book-cover img {
